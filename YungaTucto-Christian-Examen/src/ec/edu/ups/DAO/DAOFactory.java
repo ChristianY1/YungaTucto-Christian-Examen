@@ -10,4 +10,12 @@ public  abstract class DAOFactory {
 	public static DAOFactory getDaoFactory() {
 		return factory;
 	}
+
+	public abstract void createTables();
+	
+	public abstract LibroDAO getLibroDAO();
+	
+	public abstract CapituloDAO getcapCapituloDAO();
+	
+	public abstract AutorDAO getauAutorDAO();
 }

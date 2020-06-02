@@ -5,8 +5,8 @@ import ec.edu.ups.Entidades.Libro;
 
 public class JPALibro extends JPAGenericDAO<Libro, Integer> implements LibroDAO {
 
-	public JPALibro(Class<Libro> persistentClass) {
-		super(persistentClass);
+	public JPALibro() {
+		super(Libro.class);
 		// TODO Auto-generated constructor stub
 	}
 
