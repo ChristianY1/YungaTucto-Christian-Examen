@@ -16,6 +16,10 @@
 		<input name = "ISBN">
 		<label>Numero de paginas</label>
 		<input name = "num">
+		<br/>
+		<label>numero</label>
+		<br/>
+		
 	</form>
 </body>
 </html>
