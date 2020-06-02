@@ -16,6 +16,15 @@
 		<input name = "ISBN">
 		<label>Numero de paginas</label>
 		<input name = "num">
+		
+		<label>Capitulo</label>
+		<input name = "capitulo"/>
+		
+		<label>Nombre</label>
+		<input name = nombre/>
+		
+		<label>Titulo</label>
+		
 		<br/>
 
 		<button type = "submit">enviar</button>
