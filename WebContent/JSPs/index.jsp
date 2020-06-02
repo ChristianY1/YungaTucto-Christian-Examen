@@ -6,9 +6,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Insert title here</title>
+<title>Libros</title>
 </head>
 <body>
-
+	<form action="/YungaTucto-Christian-Examen/AgregarLibro">
+		<label>Nombre</label>
+		<input name = "nombre">
+		<label>ISBN</label>
+		<input name = "ISBN">
+		<label>Numero de paginas</label>
+		<input name = "num">
+	</form>
 </body>
 </html>
