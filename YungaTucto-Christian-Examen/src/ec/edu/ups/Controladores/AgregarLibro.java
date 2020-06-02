@@ -44,9 +44,12 @@ public class AgregarLibro extends HttpServlet {
 			libro.setNumPaginas(Integer.parseInt(request.getParameter("num")));
 			
 			libroDao.create(libro);
+			System.out.println("hecho!");
+			url = "/JSPs/index.jsp";
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		request.getRequestDispatcher(url).forward(request, response);
 	}
 
 	/**

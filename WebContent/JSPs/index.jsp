@@ -17,7 +17,7 @@
 		<label>Numero de paginas</label>
 		<input name = "num">
 		<br/>
-		<br/>
+
 		<button type = "submit">enviar</button>
 		
 	</form>
