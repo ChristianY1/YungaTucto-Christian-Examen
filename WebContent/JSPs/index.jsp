@@ -9,7 +9,7 @@
 <title>Libros</title>
 </head>
 <body>
-	<form action="/YungaTucto-Christian-Examen/AgregarLibro">
+	<form action="/git_YungaTucto-Christian-Examen/AgregarLibroController">
 		<label>Nombre</label>
 		<input name = "nombre">
 		<label>ISBN</label>
