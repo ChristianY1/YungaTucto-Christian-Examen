@@ -44,11 +44,11 @@ public class AgregarLibroController extends HttpServlet {
 			
 			libroDao.create(libro);
 			System.out.println("hecho!");
-			url = "/JSPs/index.jsp";
+			//url = "/JSPs/index.jsp";
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-		request.getRequestDispatcher(url).forward(request, response);
+		//request.getRequestDispatcher(url).forward(request, response);
 	
 	}
 
